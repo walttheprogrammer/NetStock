@@ -1,8 +1,10 @@
 # NetStock
 Sistema de gestión de inventarios para bodegas locales. Implementa administración de ventas, manejo de precios, control de stock y un listado de clientes fiados (cuentas por cobrar), además de tener una interfaz (UX) personalizable a las preferencias del usuario. Se desarrolló originalmente para una bodega local ubicada en Los Olivos, de nombre "El Olivar".
-> **Autor:** Walter Dario Maza Cuadrado
-> **Versión:** 1.7.12 (Release Candidate)
-> **Fecha: *21 de Diciembre de 2025*
+> Autor: Walter Dario Maza Cuadrado
+> 
+> Versión: 1.7.12 (Release Candidate)
+> 
+> Fecha: *21 de Diciembre de 2025*
 
 ## Características principales
 Este sistema se denomina NetStock, el cual cuenta con módulos robustos para la administración del negocio:
