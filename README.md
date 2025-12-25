@@ -5,21 +5,21 @@ Sistema de gestión de inventarios para bodegas locales. Implementa administraci
 > **Fecha: *21 de Diciembre de 2025*
 
 ## Características principales
-Este sistema se denomina **NetStock**, el cual cuenta con módulos robustos para la administración del negocio:
-* ** Gestión de inventario (CRUD):** Control total de productos (Crear, Leer, Actualizar, Eliminar).
-* ** Niveles de Stock:** Algoritmo que clasifica el estado del stock en tiempo real, de forma automática (Puede variar dependiendo de los productos):
+Este sistema se denomina NetStock, el cual cuenta con módulos robustos para la administración del negocio:
+* Gestión de inventario (CRUD): Control total de productos (Crear, Leer, Actualizar, Eliminar).
+* Niveles de Stock: Algoritmo que clasifica el estado del stock en tiempo real, de forma automática (Puede variar dependiendo de los productos):
     * 🟢 **Óptima** -> Cantidad ideal para operar sin riesgo de desabastecimiento del producto.
     * 🟡 **Aceptable** -> Cantidad promedio o moderada, suficiente para la demanda habitual del producto.
     * 🔴 **Baja** -> Cantidad crítica, insuficiente para la demanda habitual del producto.
-* ** Módulo de clientes fiados:** Registro y eliminación de deudas (cuentas por cobrar) por cliente, fecha y monto. 
-* ** Seguridad:** Incorpora un sistema de Login con validación contra base de datos y usuario de respaldo en memoria por si no es posible conectar con la base de datos.
-* ** Inicialización Automática:** El sistema detecta la base de datos y precarga automáticamente 27 productos básicos (Arroz, Azúcar, Aceite, etc.) para facilitar el inicio.
+* Módulo de clientes fiados: Registro y eliminación de deudas (cuentas por cobrar) por cliente, fecha y monto. 
+* Seguridad: Incorpora un sistema de Login con validación contra base de datos y usuario de respaldo en memoria por si no es posible conectar con la base de datos.
+* Inicialización Automática: El sistema detecta la base de datos y precarga automáticamente 27 productos básicos (Arroz, Azúcar, Aceite, etc.) para facilitar el inicio.
 
 ## Tecnologías implementadas
-* **Lenguajes de programación:** Java (JDK 21 LTS), SQL (T-SQL)
-* **Base de datos:** Microsoft SQL Server 2019/2022
-* **Librerías:** Swing (JFrame), JDBC (Conectividad)
-* **Herramientas:** NetBeans / IntelliJ IDEA / Git / SSMS
+* Lenguajes de programación: Java (JDK 21 LTS), SQL (T-SQL)
+* Base de datos: Microsoft SQL Server 2019/2022
+* Librerías: Swing (JFrame), JDBC (Conectividad)
+* Herramientas: NetBeans / IntelliJ IDEA / Git / SSMS
 
 ## Instrucciones 
 Sigue estos pasos para ejecutar el proyecto en tu entorno local de forma correcta y totalmente funcional:
